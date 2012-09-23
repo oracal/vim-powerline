@@ -65,10 +65,10 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['darkestgreen', 'brightgreen', ['bold']],
-		\ 'i': ['darkestcyan', 'white', ['bold']],
+		\ 'n': ['white', 'violet', ['bold']],
+        \ 'i': ['base3', 'base03', ['bold']],
 		\ 'v': ['base03', 'brightorange'],
-		\ 'r': ['white', 'violet', ['bold']],
+		\ 'r': ['base03', 'brightgreen', ['bold']],
 		\ 's': ['white', 'gray5', ['bold']],
 		\ }),
 	\
@@ -125,7 +125,7 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-		\ 'n': ['base3', 'base03'],
+        \ 'n': ['base03', 'white', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
