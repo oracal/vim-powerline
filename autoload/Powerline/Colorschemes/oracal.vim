@@ -65,26 +65,26 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['white', 'violet', ['bold']],
-        \ 'i': ['base3', 'base03', ['bold']],
+		\ 'n': ['white', 'violet'],
+        \ 'i': ['white', 'base03'],
 		\ 'v': ['base03', 'brightorange'],
-		\ 'r': ['base03', 'brightgreen', ['bold']],
-		\ 's': ['white', 'gray5', ['bold']],
+		\ 'r': ['base03', 'brightgreen'],
+		\ 's': ['white', 'gray5'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
-		\ 'n': ['base3', 'blue'],
+		\ 'n': ['white', 'blue'],
 		\ 'N': ['base2', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
-		\ 'n': ['base2', 'darkestblue', ['bold']],
-		\ 'N': ['base1', 'base02', ['bold']],
+		\ 'n': ['white', 'darkestblue'],
+		\ 'N': ['base1', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename', 'filepath'], {
-		\ 'n': ['base2', 'darkestblue', ['bold']],
-		\ 'N': ['base1', 'base02', ['bold']],
+		\ 'n': ['white', 'darkestblue'],
+		\ 'N': ['base1', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath'], {
@@ -94,42 +94,39 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['static_str'], {
-		\ 'n': ['base3', 'violet'],
+		\ 'n': ['white', 'violet'],
 		\ 'N': ['base1', 'base02'],
-		\ 'i': ['mediumcyan', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['base03', ['bold']],
+		\ 'n': ['base03'],
 		\ 'N': ['gray5'],
-		\ 'i': ['base03', ['bold']],
+		\ 'i': ['base03'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['mediumcyan', 'base02'],
-		\ 'i': ['mediumcyan', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['base3', 'blue'],
+		\ 'n': ['white', 'blue'],
 		\ 'N': ['base2', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
 		\ 'n': ['mediumcyan', 'base02'],
-		\ 'i': ['mediumcyan', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
-		\ 'n': ['base3'],
+		\ 'n': ['white'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-        \ 'n': ['base03', 'white', ['bold']],
+        \ 'n': ['base03', 'white'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
-		\ 'n': ['base3', 'violet', ['bold']],
+		\ 'n': ['white', 'violet'],
 		\ 'N': ['base2', 'darkestblue'],
 		\ }),
 	\
@@ -140,11 +137,10 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
 		\ 'n': ['white', 'base02'],
-		\ 'N': ['white', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['base3', 'violet'],
+		\ 'n': ['white', 'violet'],
 		\ 'N': ['base2', 'darkestblue'],
 		\ }),
 	\
@@ -154,24 +150,24 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['gray3', 'base02'],
-		\ 'N': ['gray3', 'base02'],
+		\ 'n': ['white', 'base02'],
+		\ 'N': ['white', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus'], {
-		\ 'n': ['base2', 'darkestblue'],
+		\ 'n': ['white', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:byfname'], {
-		\ 'n': ['base3', 'blue'],
+		\ 'n': ['white', 'blue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next', 'ctrlp:pwd'], {
-		\ 'n': ['base2', 'darkestblue'],
+		\ 'n': ['white', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
-		\ 'n': ['base3', 'blue'],
+		\ 'n': ['white', 'blue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
@@ -179,7 +175,7 @@ let g:Powerline#Colorschemes#oracal#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
-		\ 'n': ['base2', 'darkestblue'],
+		\ 'n': ['white', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
