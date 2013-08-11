@@ -7,7 +7,6 @@ let g:Powerline#Themes#oracal#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Truncate()
 		\ , 'tagbar:currenttag'
 		\ , Pl#Segment#Split()
-        \ , 'syntastic:errors'
 		\ , 'virtualenv:statusline'
 		\ , 'scrollpercent'
         \ , 'lineinfo'
